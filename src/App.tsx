@@ -2,13 +2,17 @@ import React from 'react';
 import theme from './theme/theme';
 import './theme/App.global.css';
 import { ThemeProvider } from '@material-ui/styles';
+import Home from './pages/Home';
 
-const App = () => {
-    return (
-        <ThemeProvider theme={theme}>
-            <h1>React-TypeScript-Boiler-Plate</h1>
-        </ThemeProvider>
-    );
+// Recording
+// Each Meeting Tasks
+
+const App: React.FC = () => {
+  return (
+    <ThemeProvider theme={theme}>
+      <Home />
+    </ThemeProvider>
+  );
 };
 
 export default App;

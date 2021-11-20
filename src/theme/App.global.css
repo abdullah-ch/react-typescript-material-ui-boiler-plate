@@ -3,24 +3,3 @@
  *        See https://github.com/webpack-contrib/sass-loader#imports
  */
 
-body {
-    background: #333333;
-    /* background: tomato; */
-}
-
-h1,
-h3,
-h4,
-h5,
-h6,
-th,
-tr,
-td,
-p {
-    color: #fff !important;
-}
-
-svg,
-img {
-    color: #fff !important;
-}

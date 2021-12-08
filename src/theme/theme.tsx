@@ -1,4 +1,4 @@
-import { createTheme } from '@material-ui/core/styles';
+import { createTheme } from '@mui/material/styles';
 const theme = createTheme({
   //dummy colors
   palette: {
@@ -34,44 +34,6 @@ const theme = createTheme({
     subtitle2: {
       fontSize: '16px',
       height: '1.6rem',
-    },
-  },
-  overrides: {
-    MuiDialog: {
-      paper: {
-        backgroundColor: '#252525',
-        color: 'white',
-      },
-    },
-    MuiCssBaseline: {
-      '@global': {
-        html: {
-          WebkitFontSmoothing: 'auto',
-        },
-        MuiInput: {
-          padding: '20px',
-          input: {
-            color: '#fff !important',
-          },
-        },
-      },
-    },
-    MuiTableCell: {
-      root: {
-        padding: '0px 10px',
-        fontSize: '13px',
-        borderBlockColor: 'rgba(255,255,255,0.4)',
-      },
-      head: {
-        fontSize: '16px',
-        fontWeight: 600,
-        padding: '16px !important',
-      },
-    },
-    MuiPaper: {
-      rounded: {
-        borderRadius: 0,
-      },
     },
   },
 });
